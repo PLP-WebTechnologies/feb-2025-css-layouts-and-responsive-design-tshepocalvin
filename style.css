@@ -1,0 +1,158 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  html, body {
+    width: 100%;
+    height: 100%;
+    font-family: sans-serif;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  ul, ol {
+    list-style: none;
+  }
+
+body{
+    background-color: #495867;
+    color: white;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2F3E46;
+    padding: 30px 10px;
+    font-weight: 600;
+}
+
+nav li{
+    display: inline-block;
+    padding: 5px;
+}
+
+
+#home{
+    background-color: #577399;
+    padding: 150px 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#home h1{
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+#about{
+    background-color: #2F3E46;
+    padding: 150px 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#about h2{
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+#services{
+    background-color: #577399;
+    padding: 150px 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#services h2{
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+#contact{
+    background-color: #2F3E46;
+    padding: 150px 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#contact h2{
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+#contact label, input{
+    display: inline-block;
+    width: 70%;
+}
+
+#contact label{
+    margin-bottom: 2px;
+    text-align: left;
+}
+
+.submit{
+    background-color: #577399;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+}
+
+aside{
+    background-color: #577399;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+aside h2{
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+aside p{
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+aside ul{
+    text-align: center;
+}
+
+footer{
+    padding: 30px 10px;
+    text-align: center;
+}
+
+footer li {
+    display: inline-block;
+    padding: 5px;
+
+}
+
+
+/* Laptop */
+
+@media (min-width: 769px) {
+    .main-aside-container{
+        display: flex;
+        width: 100%;
+    }
+
+    .main-aside-container main{
+            width: 80%;
+    }
+}
