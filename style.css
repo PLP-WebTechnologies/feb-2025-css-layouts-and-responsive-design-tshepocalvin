@@ -147,6 +147,9 @@ footer li {
 /* Laptop */
 
 @media (min-width: 769px) {
+    nav{
+        padding: 30px 160px;
+    }
     .main-aside-container{
         display: flex;
         width: 100%;
@@ -154,5 +157,6 @@ footer li {
 
     .main-aside-container main{
             width: 80%;
+            border: #2F3E46 solid 3px;
     }
 }
